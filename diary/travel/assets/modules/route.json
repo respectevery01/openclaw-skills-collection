@@ -1,0 +1,24 @@
+{
+  "total_distance": 823.6,
+  "total_distance_unit": "km",
+  "total_time": 31107,
+  "total_time_formatted": "8h 37m",
+  "segments": [
+    {
+      "from": "武汉",
+      "to": "南京",
+      "distance": 523.0,
+      "distance_unit": "km",
+      "time": 19475,
+      "time_formatted": "5h 24m"
+    },
+    {
+      "from": "南京",
+      "to": "上海",
+      "distance": 300.6,
+      "distance_unit": "km",
+      "time": 11594,
+      "time_formatted": "3h 13m"
+    }
+  ]
+}

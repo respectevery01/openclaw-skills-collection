@@ -1,0 +1,7 @@
+{
+  "origin": "武汉",
+  "destination": "上海",
+  "waypoints": ["南京"],
+  "total_days": 7,
+  "travel_mode": "driving"
+}

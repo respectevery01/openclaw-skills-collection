@@ -1,0 +1,21 @@
+{
+  "common": {
+    "query_location": "クエリ位置: {name} (ID: {id})",
+    "search_results": "{count}件の一致する都市が見つかりました:",
+    "no_results": "'{keyword}'を含む都市が見つかりません",
+    "try_api_search": "API検索を試すには--api-searchパラメータを使用してください",
+    "unknown_country": "未知国家",
+    "unknown_province": "未知省份",
+    "unknown_city": "未知城市",
+    "found_matching_cities": "{count}件の一致する都市が見つかりました:",
+    "city_not_found_locally": "ローカルで都市が見つかりません: {city}",
+    "trying_search_api": "APIを通じて都市を検索中: {city}",
+    "use_location_id": "--location-idパラメータを使用して都市IDを指定してください",
+    "city_not_found": "都市が見つかりません: {city}",
+    "suggest_city_id": "都市IDを使用してクエリすることを提案、またはAPI権限を確認してください",
+    "common_city_id_examples": "一般的な都市IDの例:",
+    "please_provide_city": "都市名または都市IDを提供してください",
+    "error": "エラー",
+    "language_selection_default_zh_cn": "言語選択 (デフォルト: zh_cn)"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "common": {
+    "query_location": "Query Location: {name} (ID: {id})",
+    "search_results": "Found {count} matching cities:",
+    "no_results": "No cities found containing '{keyword}'",
+    "try_api_search": "Try using --api-search parameter for API search",
+    "unknown_country": "Unknown Country",
+    "unknown_province": "Unknown Province",
+    "unknown_city": "Unknown City",
+    "found_matching_cities": "Found {count} matching cities:",
+    "city_not_found_locally": "City not found locally: {city}",
+    "trying_search_api": "Trying to search city via API: {city}",
+    "use_location_id": "Please use --location-id parameter to specify city ID",
+    "city_not_found": "City not found: {city}",
+    "suggest_city_id": "Suggest using city ID to query, or check API permissions",
+    "common_city_id_examples": "Common city ID examples:",
+    "please_provide_city": "Please provide city name or city ID",
+    "error": "Error",
+    "language_selection_default_zh_cn": "Language selection (default: zh_cn)"
+  }
+}

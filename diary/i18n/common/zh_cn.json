@@ -1,0 +1,21 @@
+{
+  "common": {
+    "query_location": "查询位置: {name} (ID: {id})",
+    "search_results": "找到{count}个匹配城市:",
+    "no_results": "未找到包含'{keyword}'的城市",
+    "try_api_search": "尝试使用--api-search参数进行API搜索",
+    "unknown_country": "未知国家",
+    "unknown_province": "未知省份",
+    "unknown_city": "未知城市",
+    "found_matching_cities": "找到{count}个匹配城市:",
+    "city_not_found_locally": "本地未找到城市: {city}",
+    "trying_search_api": "尝试通过API搜索城市: {city}",
+    "use_location_id": "请使用--location-id参数指定城市ID",
+    "city_not_found": "未找到城市: {city}",
+    "suggest_city_id": "建议使用城市ID查询，或检查API权限",
+    "common_city_id_examples": "常见城市ID示例:",
+    "please_provide_city": "请提供城市名称或城市ID",
+    "error": "错误",
+    "language_selection_default_zh_cn": "语言选择 (默认: zh_cn)"
+  }
+}

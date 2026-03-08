@@ -1,0 +1,30 @@
+{
+  "amap": {
+    "cli_tool": "Amap CLI tool",
+    "address_to_query": "Address to query",
+    "regeocode_coords_to_address": "Regeocode coordinates to address (format: longitude,latitude)",
+    "search_poi_by_keywords": "Search POI by keywords",
+    "city_for_weather": "City for weather query",
+    "get_weather_info": "Get weather information for city",
+    "travel_mode": "Travel mode (driving/walking/transit/riding)",
+    "show_raw_json": "Show raw JSON output",
+    "address": "Address",
+    "coordinates": "Coordinates",
+    "province": "Province",
+    "city": "City",
+    "district": "District",
+    "township": "Township",
+    "found_pois": "Found POIs",
+    "amap_weather": "Weather",
+    "temperature": "Temperature",
+    "wind_direction": "Wind Direction",
+    "wind_power": "Wind Power",
+    "humidity": "Humidity",
+    "report_time": "Report Time",
+    "distance": "Distance",
+    "duration": "Duration",
+    "path_distance": "Path Distance",
+    "path_duration": "Path Duration",
+    "detailed_instructions": "Detailed Instructions"
+  }
+}

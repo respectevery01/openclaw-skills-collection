@@ -1,0 +1,47 @@
+{
+  "qweather": {
+    "cli_tool": "和风天气命令行工具",
+    "city_name_example": "城市名称 (例如: 北京, 上海)",
+    "use_city_id_example": "直接使用城市ID (例如: 101010100)",
+    "display_simple_weather": "只显示实时天气 (简化版)",
+    "show_forecast_3_7_days": "显示天气预报 (3或7天)",
+    "show_air_quality": "显示空气质量信息",
+    "search_cities": "搜索城市",
+    "force_api_search": "强制使用API搜索城市",
+    "search_global_cities": "搜索全球城市",
+    "search_range_example": "搜索范围 (例如: cn, us, jp)",
+    "language_selection_default_en": "语言选择 (默认: zh_cn)"
+  },
+  "weather": {
+    "title": "🌤️  实时天气信息",
+    "temp": "温度",
+    "feels_like": "体感温度",
+    "text": "天气状况",
+    "wind_dir": "风向",
+    "wind_scale": "风力等级",
+    "humidity": "湿度",
+    "visibility": "能见度"
+  },
+  "forecast": {
+    "title": "📅 未来{days}天天气预报",
+    "daytime": "白天: {textDay} {tempMin}°C ~ {tempMax}°C",
+    "night": "夜晚: {textNight}",
+    "wind": "风向: {windDirDay} {windScaleDay}级"
+  },
+  "air": {
+    "title": "🌫️  空气质量信息",
+    "aqi": "AQI指数",
+    "level": "空气质量等级",
+    "primary": "主要污染物",
+    "pm2p5": "PM2.5",
+    "pm10": "PM10"
+  },
+  "indices": {
+    "title": "📊 今日生活指数:",
+    "sport": "运动指数",
+    "car_wash": "洗车指数",
+    "dressing": "穿衣指数",
+    "fishing": "钓鱼指数",
+    "uv": "紫外线指数"
+  }
+}

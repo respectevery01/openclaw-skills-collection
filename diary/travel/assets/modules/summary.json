@@ -1,0 +1,14 @@
+{
+  "total_locations": 3,
+  "total_attractions": 9,
+  "average_temperature": 10.3,
+  "weather_conditions": ["Overcast", "Sunny", "Cloudy"],
+  "total_distance": 823.6,
+  "total_time": "8h 37m",
+  "recommendations": [
+    "建议在晴天进行户外景点游览",
+    "准备轻薄外套，早晚温差较大",
+    "每个城市建议停留2-3天",
+    "提前预订酒店和门票"
+  ]
+}

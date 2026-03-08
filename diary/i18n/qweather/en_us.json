@@ -1,0 +1,47 @@
+{
+  "qweather": {
+    "cli_tool": "QWeather CLI tool",
+    "city_name_example": "City name (e.g., Beijing, Shanghai)",
+    "use_city_id_example": "Use city ID directly (e.g., 101010100)",
+    "display_simple_weather": "Show only real-time weather (simplified version)",
+    "show_forecast_3_7_days": "Show weather forecast (3 or 7 days)",
+    "show_air_quality": "Show air quality information",
+    "search_cities": "Search for cities",
+    "force_api_search": "Force use API to search cities",
+    "search_global_cities": "Search global cities",
+    "search_range_example": "Search range (e.g., cn, us, jp)",
+    "language_selection_default_en": "Language selection (default: en_us)"
+  },
+  "weather": {
+    "title": "🌤️  Current Weather",
+    "temp": "Temperature",
+    "feels_like": "Feels Like",
+    "text": "Weather Condition",
+    "wind_dir": "Wind Direction",
+    "wind_scale": "Wind Scale",
+    "humidity": "Humidity",
+    "visibility": "Visibility"
+  },
+  "forecast": {
+    "title": "📅 {days}-Day Weather Forecast",
+    "daytime": "Daytime: {textDay} {tempMin}°C ~ {tempMax}°C",
+    "night": "Night: {textNight}",
+    "wind": "Wind: {windDirDay} {windScaleDay} levels"
+  },
+  "air": {
+    "title": "🌫️  Air Quality",
+    "aqi": "AQI Index",
+    "level": "Air Quality Level",
+    "primary": "Primary Pollutant",
+    "pm2p5": "PM2.5",
+    "pm10": "PM10"
+  },
+  "indices": {
+    "title": "📊 Today's Life Indices:",
+    "sport": "Sports Index",
+    "car_wash": "Car Wash Index",
+    "dressing": "Dressing Index",
+    "fishing": "Fishing Index",
+    "uv": "UV Index"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planning - 旅行规划</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌍 Travel Planning</h1>
+            <p class="subtitle">AI-Generated Travel Plans</p>
+        </header>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Loading travel plan...</p>
+        </div>
+
+        <div id="error" class="error hidden"></div>
+
+        <div id="travelPlan" class="travel-plan hidden">
+            <div id="metadata" class="metadata"></div>
+            
+            <div id="tripInfo" class="trip-info"></div>
+            
+            <div id="routeSection" class="route-section"></div>
+            
+            <div id="weatherSection" class="weather-section"></div>
+            
+            <div id="attractionsSection" class="attractions-section"></div>
+            
+            <div id="itinerarySection" class="itinerary-section"></div>
+            
+            <div id="summarySection" class="summary-section"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

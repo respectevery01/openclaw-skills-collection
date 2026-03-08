@@ -1,0 +1,30 @@
+{
+  "amap": {
+    "cli_tool": "高德地图命令行工具",
+    "address_to_query": "要查询的地址",
+    "regeocode_coords_to_address": "坐标转地址 (格式: 经度,纬度)",
+    "search_poi_by_keywords": "按关键字搜索POI",
+    "city_for_weather": "天气查询的城市",
+    "get_weather_info": "获取城市天气信息",
+    "travel_mode": "出行方式 (驾车/步行/公交/骑行)",
+    "show_raw_json": "显示原始JSON输出",
+    "address": "地址",
+    "coordinates": "坐标",
+    "province": "省份",
+    "city": "城市",
+    "district": "区县",
+    "township": "乡镇",
+    "found_pois": "找到POI",
+    "amap_weather": "天气",
+    "temperature": "温度",
+    "wind_direction": "风向",
+    "wind_power": "风力",
+    "humidity": "湿度",
+    "report_time": "报告时间",
+    "distance": "距离",
+    "duration": "持续时间",
+    "path_distance": "路径距离",
+    "path_duration": "路径持续时间",
+    "detailed_instructions": "详细指引"
+  }
+}

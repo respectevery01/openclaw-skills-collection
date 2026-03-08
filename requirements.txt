@@ -1,0 +1,38 @@
+# OpenClaw Skills Collection - Python Dependencies
+
+# Core Dependencies
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Web3 Dependencies
+okx>=1.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# AI API Dependencies (Optional - for AI Aggregator)
+# Note: Most AI APIs use their own SDKs or simple HTTP requests
+# Uncomment these if you plan to use AI services:
+# openai>=1.0.0  # For OpenAI API
+# anthropic>=0.18.0  # For Claude API
+# google-generativeai>=0.3.0  # For Gemini API
+# dashscope>=1.14.0  # For Qwen API
+# zhipuai>=2.0.0  # For GLM API
+
+# Web Server (for Travel tool)
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Additional Utilities (Optional)
+# Uncomment if needed:
+# beautifulsoup4>=4.12.0  # For web scraping
+# lxml>=4.9.0  # For XML/HTML parsing
+# Pillow>=10.0.0  # For image processing
+
+# TTS (Text-to-Speech) Dependencies
+edge-tts>=6.1.0  # For TTS functionality
+
+# STT (Speech-to-Text) Dependencies
+openai>=1.0.0  # For Whisper speech recognition
+
+# RSS Feed Reader Dependencies
+feedparser>=6.0.0  # For RSS feed parsing

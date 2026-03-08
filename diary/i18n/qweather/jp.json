@@ -1,0 +1,47 @@
+{
+  "qweather": {
+    "cli_tool": "QWeather CLIツール",
+    "city_name_example": "都市名 (例: 北京, 上海)",
+    "use_city_id_example": "都市IDを直接使用 (例: 101010100)",
+    "display_simple_weather": "リアルタイム天気のみを表示 (簡略版)",
+    "show_forecast_3_7_days": "天気予報を表示 (3日または7日)",
+    "show_air_quality": "大気質量情報を表示",
+    "search_cities": "都市を検索",
+    "force_api_search": "APIを強制的に使用して都市を検索",
+    "search_global_cities": "グローバル都市を検索",
+    "search_range_example": "検索範囲 (例: cn, us, jp)",
+    "language_selection_default_en": "言語選択 (デフォルト: jp)"
+  },
+  "weather": {
+    "title": "🌤️  現在の天気情報",
+    "temp": "温度",
+    "feels_like": "体感温度",
+    "text": "天気状況",
+    "wind_dir": "風向",
+    "wind_scale": "風力レベル",
+    "humidity": "湿度",
+    "visibility": "視程"
+  },
+  "forecast": {
+    "title": "📅 {days}日間の天気予報",
+    "daytime": "昼間: {textDay} {tempMin}°C ~ {tempMax}°C",
+    "night": "夜間: {textNight}",
+    "wind": "風向: {windDirDay} {windScaleDay}級"
+  },
+  "air": {
+    "title": "🌫️  大気質量情報",
+    "aqi": "AQI指数",
+    "level": "大気質量等級",
+    "primary": "主要汚染物質",
+    "pm2p5": "PM2.5",
+    "pm10": "PM10"
+  },
+  "indices": {
+    "title": "📊 今日の生活指数:",
+    "sport": "スポーツ指数",
+    "car_wash": "洗車指数",
+    "dressing": "服装指数",
+    "fishing": "釣り指数",
+    "uv": "紫外線指数"
+  }
+}

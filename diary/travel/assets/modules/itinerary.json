@@ -1,0 +1,178 @@
+[
+  {
+    "day": 1,
+    "date": "2026-03-08",
+    "location": "武汉",
+    "activities": [
+      {
+        "time": "上午",
+        "activity": "黄鹤楼",
+        "type": "景点游览",
+        "weather": "Overcast 7°C ~ 16°C"
+      },
+      {
+        "time": "下午",
+        "activity": "汉口江滩",
+        "type": "景点游览",
+        "weather": "Overcast 7°C ~ 16°C"
+      },
+      {
+        "time": "晚上",
+        "activity": "古德寺",
+        "type": "景点游览",
+        "weather": "Overcast 7°C ~ 16°C"
+      }
+    ],
+    "weather_summary": "阴天，7-16°C，北风1-3级"
+  },
+  {
+    "day": 2,
+    "date": "2026-03-09",
+    "location": "武汉 → 南京",
+    "activities": [
+      {
+        "time": "上午",
+        "activity": "从武汉出发前往南京",
+        "type": "交通",
+        "weather": "武汉: Overcast 3°C ~ 16°C, 南京: Cloudy 4°C ~ 13°C"
+      },
+      {
+        "time": "下午",
+        "activity": "到达南京，入住酒店",
+        "type": "住宿",
+        "weather": "Cloudy 4°C ~ 13°C"
+      },
+      {
+        "time": "晚上",
+        "activity": "夫子庙秦淮风光带夜游",
+        "type": "景点游览",
+        "weather": "Cloudy 4°C ~ 13°C"
+      }
+    ],
+    "weather_summary": "多云，4-13°C，东风1-3级"
+  },
+  {
+    "day": 3,
+    "date": "2026-03-10",
+    "location": "南京",
+    "activities": [
+      {
+        "time": "上午",
+        "activity": "中山陵",
+        "type": "景点游览",
+        "weather": "Sunny 2°C ~ 12°C"
+      },
+      {
+        "time": "下午",
+        "activity": "玄武湖",
+        "type": "景点游览",
+        "weather": "Sunny 2°C ~ 12°C"
+      },
+      {
+        "time": "晚上",
+        "activity": "南京老门东",
+        "type": "美食",
+        "weather": "Sunny 2°C ~ 12°C"
+      }
+    ],
+    "weather_summary": "晴天，2-12°C，东南风1-3级"
+  },
+  {
+    "day": 4,
+    "date": "2026-03-11",
+    "location": "南京 → 上海",
+    "activities": [
+      {
+        "time": "上午",
+        "activity": "从南京出发前往上海",
+        "type": "交通",
+        "weather": "南京: Cloudy 4°C ~ 15°C, 上海: Cloudy 6°C ~ 15°C"
+      },
+      {
+        "time": "下午",
+        "activity": "到达上海，入住酒店",
+        "type": "住宿",
+        "weather": "Cloudy 6°C ~ 15°C"
+      },
+      {
+        "time": "晚上",
+        "activity": "外滩夜景",
+        "type": "景点游览",
+        "weather": "Cloudy 6°C ~ 15°C"
+      }
+    ],
+    "weather_summary": "多云，6-15°C，南风1-3级"
+  },
+  {
+    "day": 5,
+    "date": "2026-03-12",
+    "location": "上海",
+    "activities": [
+      {
+        "time": "上午",
+        "activity": "东方明珠广播电视塔",
+        "type": "景点游览",
+        "weather": "Sunny 7°C ~ 15°C"
+      },
+      {
+        "time": "下午",
+        "activity": "上海豫园",
+        "type": "景点游览",
+        "weather": "Sunny 7°C ~ 15°C"
+      },
+      {
+        "time": "晚上",
+        "activity": "南京路步行街",
+        "type": "购物",
+        "weather": "Sunny 7°C ~ 15°C"
+      }
+    ],
+    "weather_summary": "晴天，7-15°C，北风1-3级"
+  },
+  {
+    "day": 6,
+    "date": "2026-03-13",
+    "location": "上海",
+    "activities": [
+      {
+        "time": "上午",
+        "activity": "上海博物馆",
+        "type": "景点游览",
+        "weather": "Sunny 9°C ~ 16°C"
+      },
+      {
+        "time": "下午",
+        "activity": "静安寺",
+        "type": "景点游览",
+        "weather": "Sunny 9°C ~ 16°C"
+      },
+      {
+        "time": "晚上",
+        "activity": "新天地",
+        "type": "美食",
+        "weather": "Sunny 9°C ~ 16°C"
+      }
+    ],
+    "weather_summary": "晴天，9-16°C，东北风1-3级"
+  },
+  {
+    "day": 7,
+    "date": "2026-03-14",
+    "location": "上海",
+    "activities": [
+      {
+        "time": "上午",
+        "activity": "外滩",
+        "type": "景点游览",
+        "weather": "Cloudy 7°C ~ 16°C"
+      },
+      {
+        "time": "下午",
+        "activity": "准备返程",
+        "type": "交通",
+        "weather": "Cloudy 7°C ~ 16°C"
+      }
+    ],
+    "weather_summary": "多云，7-16°C，南风1-3级"
+  }
+]

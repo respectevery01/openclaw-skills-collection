@@ -1,0 +1,29 @@
+{
+  "amap": {
+    "cli_tool": "高德地圖命令列工具",
+    "address_to_query": "要查詢的地址",
+    "regeocode_coords_to_address": "座標轉地址 (格式：經度，緯度)",
+    "search_poi_by_keywords": "按關鍵字搜尋POI",
+    "city_for_weather": "天氣查詢的城市",
+    "get_weather_info": "取得城市天氣資訊",
+    "travel_mode": "出行方式 (駕車/步行/公車/騎行)",
+    "show_raw_json": "顯示原始JSON輸出",
+    "address": "地址",
+    "coordinates": "座標",
+    "province": "省份",
+    "city": "城市",
+    "district": "區縣",
+    "township": "鄉鎮",
+    "found_pois": "找到POI",
+    "amap_weather": "天氣",
+    "temperature": "溫度",
+    "wind_direction": "風向",
+    "wind_power": "風力",
+    "humidity": "濕度",
+    "report_time": "報告時間",
+    "distance": "距離",
+    "duration": "持續時間",
+    "path_distance": "路徑距離",
+    "path_duration": "路徑持續時間"
+  }
+}

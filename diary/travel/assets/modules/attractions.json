@@ -1,0 +1,80 @@
+{
+  "武汉": [
+    {
+      "name": "黄鹤楼",
+      "address": "蛇山西山坡特1号",
+      "coordinates": "114.302467,30.544649",
+      "category": "景点",
+      "description": "千古名楼，武汉地标",
+      "recommended_visit_time": "2-3小时"
+    },
+    {
+      "name": "汉口江滩",
+      "address": "江滩大道1号",
+      "coordinates": "114.319404,30.610162",
+      "category": "景点",
+      "description": "长江风光，城市绿肺",
+      "recommended_visit_time": "1-2小时"
+    },
+    {
+      "name": "古德寺",
+      "address": "工农兵路24号",
+      "coordinates": "114.307288,30.618717",
+      "category": "景点",
+      "description": "历史文化，佛教圣地",
+      "recommended_visit_time": "1-2小时"
+    }
+  ],
+  "南京": [
+    {
+      "name": "中山陵",
+      "address": "石象路7号",
+      "coordinates": "118.854097,32.054508",
+      "category": "景点",
+      "description": "国父陵寝，庄严肃穆",
+      "recommended_visit_time": "2-3小时"
+    },
+    {
+      "name": "玄武湖",
+      "address": "玄武门路1号",
+      "coordinates": "118.812688,32.069455",
+      "category": "景点",
+      "description": "城市明珠，湖光山色",
+      "recommended_visit_time": "2-3小时"
+    },
+    {
+      "name": "夫子庙秦淮风光带",
+      "address": "平江府路80-1",
+      "coordinates": "118.788972,32.020699",
+      "category": "景点",
+      "description": "古都风情，夜游胜地",
+      "recommended_visit_time": "2-3小时"
+    }
+  ],
+  "上海": [
+    {
+      "name": "外滩",
+      "address": "中山东二路1号",
+      "coordinates": "121.492127,31.233516",
+      "category": "景点",
+      "description": "万国建筑，江景绝佳",
+      "recommended_visit_time": "1-2小时"
+    },
+    {
+      "name": "东方明珠广播电视塔",
+      "address": "世纪大道1号",
+      "coordinates": "121.499718,31.239703",
+      "category": "景点",
+      "description": "现代地标，登高望远",
+      "recommended_visit_time": "2-3小时"
+    },
+    {
+      "name": "上海豫园",
+      "address": "福佑路168号",
+      "coordinates": "121.492497,31.227714",
+      "category": "景点",
+      "description": "江南园林，古典雅致",
+      "recommended_visit_time": "2-3小时"
+    }
+  ]
+}

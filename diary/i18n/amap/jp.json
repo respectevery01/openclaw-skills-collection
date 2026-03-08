@@ -1,0 +1,29 @@
+{
+  "amap": {
+    "cli_tool": "Amap CLIツール",
+    "address_to_query": "クエリするアドレス",
+    "regeocode_coords_to_address": "座標からアドレスに変換 (フォーマット: 経度,緯度)",
+    "search_poi_by_keywords": "キーワードでPOIを検索",
+    "city_for_weather": "天気クエリの都市",
+    "get_weather_info": "都市の天気情報を取得",
+    "travel_mode": "移動モード (ドライブ/徒歩/公共交通機関/自転車)",
+    "show_raw_json": "生のJSON出力を表示",
+    "address": "アドレス",
+    "coordinates": "座標",
+    "province": "省份",
+    "city": "都市",
+    "district": "区県",
+    "township": "郷鎮",
+    "found_pois": "POIが見つかりました",
+    "amap_weather": "天気",
+    "temperature": "温度",
+    "wind_direction": "風向",
+    "wind_power": "風力",
+    "humidity": "湿度",
+    "report_time": "報告時間",
+    "distance": "距離",
+    "duration": "持続時間",
+    "path_distance": "パス距離",
+    "path_duration": "パス持続時間"
+  }
+}

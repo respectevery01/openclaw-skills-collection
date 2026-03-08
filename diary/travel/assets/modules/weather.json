@@ -1,0 +1,194 @@
+{
+  "武汉": {
+    "city_id": "101200101",
+    "city_name": "武汉",
+    "forecast": [
+      {
+        "date": "2026-03-08",
+        "temp_min": 7,
+        "temp_max": 16,
+        "condition": "Overcast",
+        "wind_direction": "N",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-09",
+        "temp_min": 3,
+        "temp_max": 16,
+        "condition": "Overcast",
+        "wind_direction": "N",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-10",
+        "temp_min": 5,
+        "temp_max": 18,
+        "condition": "Sunny",
+        "wind_direction": "S",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-11",
+        "temp_min": 7,
+        "temp_max": 20,
+        "condition": "Sunny",
+        "wind_direction": "NE",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-12",
+        "temp_min": 6,
+        "temp_max": 19,
+        "condition": "Sunny",
+        "wind_direction": "NE",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-13",
+        "temp_min": 8,
+        "temp_max": 19,
+        "condition": "Sunny",
+        "wind_direction": "SE",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-14",
+        "temp_min": 8,
+        "temp_max": 22,
+        "condition": "Cloudy",
+        "wind_direction": "N",
+        "wind_scale": "1-3"
+      }
+    ],
+    "average_temp": 12.0,
+    "weather_conditions": ["Overcast", "Sunny", "Cloudy"]
+  },
+  "南京": {
+    "city_id": "101190101",
+    "city_name": "南京",
+    "forecast": [
+      {
+        "date": "2026-03-08",
+        "temp_min": 4,
+        "temp_max": 13,
+        "condition": "Cloudy",
+        "wind_direction": "E",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-09",
+        "temp_min": 0,
+        "temp_max": 13,
+        "condition": "Cloudy",
+        "wind_direction": "NE",
+        "wind_scale": "3-4"
+      },
+      {
+        "date": "2026-03-10",
+        "temp_min": 2,
+        "temp_max": 12,
+        "condition": "Sunny",
+        "wind_direction": "SE",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-11",
+        "temp_min": 4,
+        "temp_max": 15,
+        "condition": "Cloudy",
+        "wind_direction": "NE",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-12",
+        "temp_min": 2,
+        "temp_max": 13,
+        "condition": "Sunny",
+        "wind_direction": "NE",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-13",
+        "temp_min": 5,
+        "temp_max": 13,
+        "condition": "Cloudy",
+        "wind_direction": "SE",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-14",
+        "temp_min": 7,
+        "temp_max": 19,
+        "condition": "Cloudy",
+        "wind_direction": "E",
+        "wind_scale": "1-3"
+      }
+    ],
+    "average_temp": 8.5,
+    "weather_conditions": ["Cloudy", "Sunny"]
+  },
+  "上海": {
+    "city_id": "101020100",
+    "city_name": "上海",
+    "forecast": [
+      {
+        "date": "2026-03-08",
+        "temp_min": 6,
+        "temp_max": 12,
+        "condition": "Sunny",
+        "wind_direction": "E",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-09",
+        "temp_min": 4,
+        "temp_max": 12,
+        "condition": "Cloudy",
+        "wind_direction": "N",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-10",
+        "temp_min": 5,
+        "temp_max": 12,
+        "condition": "Sunny",
+        "wind_direction": "NE",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-11",
+        "temp_min": 6,
+        "temp_max": 15,
+        "condition": "Cloudy",
+        "wind_direction": "S",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-12",
+        "temp_min": 7,
+        "temp_max": 15,
+        "condition": "Sunny",
+        "wind_direction": "N",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-13",
+        "temp_min": 9,
+        "temp_max": 16,
+        "condition": "Sunny",
+        "wind_direction": "NE",
+        "wind_scale": "1-3"
+      },
+      {
+        "date": "2026-03-14",
+        "temp_min": 7,
+        "temp_max": 16,
+        "condition": "Cloudy",
+        "wind_direction": "S",
+        "wind_scale": "1-3"
+      }
+    ],
+    "average_temp": 10.5,
+    "weather_conditions": ["Sunny", "Cloudy"]
+  }
+}
