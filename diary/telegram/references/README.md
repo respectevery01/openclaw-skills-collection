@@ -562,9 +562,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License / 许可证
 
-This project is licensed under the MIT License - see the [LICENSE](../../../../LICENSE) file for details.
+This project is licensed under the GNU General Public License v3 - see the [LICENSE](../../../../LICENSE) file for details.
 
-本项目基于MIT许可证开源 - 详见 [LICENSE](../../../../LICENSE) 文件。
+本项目基于GNU General Public License v3许可证开源 - 详见 [LICENSE](../../../../LICENSE) 文件。
 
 ## Support / 支持
 
