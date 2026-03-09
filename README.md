@@ -80,11 +80,11 @@ python web3.py market-data BTC
 
 For detailed usage instructions and AI integration, refer to the main SKILL.md file:
 
-**📄 SKILL.md**: [https://raw.githubusercontent.com/respectevery01/openclaw-skills-collection/refs/heads/main/SKILL.md](https://raw.githubusercontent.com/respectevery01/openclaw-skills-collection/refs/heads/main/SKILL.md)
+**SKILL.md**: [https://raw.githubusercontent.com/respectevery01/openclaw-skills-collection/refs/heads/main/SKILL.md](https://raw.githubusercontent.com/respectevery01/openclaw-skills-collection/refs/heads/main/SKILL.md)
 
 This file contains comprehensive instructions for AI agents on how to use all skills effectively.
 
-## �🛠️ Installation
+## Installation
 
 ### Prerequisites
 
