@@ -1,272 +1,382 @@
 # Web3 Tools
 
-Web3 工具提供全面的区块链数据查询功能，包括代币信息查询和多链钱包余额追踪。工具支持多个区块链网络，包括以太坊、BSC、Solana、比特币和各种 EVM 兼容链。
+Web3 tools provide comprehensive blockchain data querying, financial market analysis, and complete OKX Web3 API support for meme token scanning across multiple blockchain networks.
 
-## 功能
-
-### 代币查询 (token_query.py)
-
-查询详细的代币信息，包括：
-- 实时价格数据
-- 代币名称和符号
-- 市值
-- 24小时交易量
-- 总供应量和最大供应量
-- 代币小数位数
-- Logo 和官方网站
-- 社交媒体链接
-
-**支持的链：**
-- Ethereum
-- BSC (币安智能链)
-- Solana
-
-### 钱包余额 (wallet_balance.py)
-
-查询多链钱包余额：
-- 每条链的原生代币余额
-- 使用实时价格计算美元价值
-- 自动检测地址类型
-- 支持 EVM 链、比特币和 Solana
-- ERC20 代币余额查询（仅限 EVM 链）
-
-**支持的链：**
-- EVM 链：Ethereum、BSC、Polygon、Arbitrum、Optimism、Avalanche、Base、Linea、Fantom、Cronos
-- 非 EVM：Bitcoin、Solana
-
-## 使用方法
-
-### 代币查询
+## Quick Start
 
 ```bash
-python scripts/token_query.py <链> <合约地址>
+# Query token information
+python scripts/web3.py token-query ethereum 0xEa9Bb54fC76BfD5DD2FF2f6dA641E78C230bB683
+
+# Query wallet balance
+python scripts/web3.py wallet-balance 0x53A0Fc074E31068CFdBD73B756458546274fEa97
+
+# Get market data
+python scripts/web3.py market-data AAPL
+
+# Calculate RSI indicator
+python scripts/web3.py rsi BTC-USD
+
+# Calculate MACD indicator
+python scripts/web3.py macd ETH-USD
+
+# Scan for meme tokens
+python scripts/web3.py chain-scanner --chain sol --stage NEW --limit 10
+
+# Get token details
+python scripts/web3.py token-details sol FGSpAGvkR1zRjjBpY2utb5JDyPnYSB7y3KDGpP53pump
+
+# Get cryptocurrency data
+python scripts/web3.py coinmarketcap listings --limit 10
 ```
 
-**示例：**
+## Supported Languages
+
+- English (en_us) - Default
+- Chinese (zh_cn)
+- Japanese (jp)
+- Traditional Chinese (zh_tw)
+
+Set language:
 ```bash
-# Ethereum 代币
-python scripts/token_query.py ethereum 0xEa9Bb54fC76BfD5DD2FF2f6dA641E78C230bB683
-
-# BSC 代币
-python scripts/token_query.py bsc 0x...
-
-# Solana 代币
-python scripts/token_query.py sol So11111111111111111111111111111111111111112
+export LANG=zh_cn
 ```
 
-### 钱包余额
+## Features
 
-```bash
-python scripts/wallet_balance.py <钱包地址>
-```
+### Token Query
+- Real-time price data
+- Token name and symbol
+- Market capitalization
+- 24-hour trading volume
+- Total and maximum supply
+- Logo and official website
+- Social media links
 
-**示例：**
-```bash
-# EVM 钱包地址
-python scripts/wallet_balance.py 0x53A0Fc074E31068CFdBD73B756458546274fEa97
+### Wallet Balance
+- Multi-chain support (EVM, Bitcoin, Solana)
+- Native token balances
+- USD value calculation
+- Automatic address type detection
+- ERC20 token balance queries
 
-# 比特币地址
-python scripts/wallet_balance.py bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
+### Market Data
+- Stock and cryptocurrency data
+- Multiple time periods and intervals
+- OHLCV data
+- Price change statistics
+- 52-week high/low
+- Historical data export
 
-# Solana 地址
-python scripts/wallet_balance.py 9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM
-```
+### Technical Indicators
+- **RSI (Relative Strength Index)**: Overbought/oversold signals, divergence analysis
+- **MACD (Moving Average Convergence Divergence)**: Trend analysis, crossover detection
+- Trading recommendations
+- Risk assessment
 
-## 环境配置
+### CoinMarketCap Integration
+- Top cryptocurrency listings
+- Individual token information
+- Global market metrics
+- Real-time price data
+- Market dominance tracking
 
-在 `.env` 文件中设置环境变量：
+### Meme Token Scanner (OKX Web3 API)
+- **Supported Chains**: Solana, BSC, X Layer, TRON, Ethereum
+- **Supported Protocols**: pumpfun, bonk, moonshot, raydium, pancakeswap, xswap, sunswap, uniswap
+- Scan for meme tokens across multiple blockchains
+- Get supported chains and protocols
+- Query detailed token information
+- Find similar tokens
+- Track aped wallets (co-ride wallets)
+- Get token bundle transaction data
+- Get token developer information
+- Track signal-supported chains
+- Get recent signal lists
+- Real-time risk analysis and recommendations
+- Smart money signal tracking
+- Developer reputation analysis
 
+## Environment Variables
+
+Required for token query:
 ```
 OKX_API_KEY=your_api_key
 OKX_API_SECRET=your_api_secret
 OKX_API_PASSPHRASE=your_passphrase
+```
+
+Required for CoinMarketCap:
+```
+COINMARKETCAP_API_KEY=your_api_key
+```
+
+Optional:
+```
 ETHERSCAN_API_KEY=your_etherscan_api_key
 ```
 
-## 依赖安装
+## Directory Structure
+
+```
+web3/
+├── SKILL.md           # AI skill documentation
+├── README.md          # This file
+├── scripts/           # Python scripts
+│   ├── web3.py       # Main launcher
+│   ├── token_query.py
+│   ├── wallet_balance.py
+│   ├── market_data.py
+│   ├── rsi.py
+│   ├── macd.py
+│   └── coinmarketcap.py
+├── assets/            # Asset modules
+│   ├── i18n/         # Translation files
+│   │   ├── en_us.json
+│   │   ├── zh_cn.json
+│   │   ├── jp.json
+│   │   └── zh_tw.json
+│   ├── data_fetcher.py
+│   └── __pycache__/
+└── references/         # User documentation
+    └── README.md
+```
+
+## Documentation
+
+For detailed documentation, see:
+- [SKILL.md](SKILL.md) - AI skill documentation
+- [references/README.md](references/README.md) - User documentation
+
+## Available Commands
+
+### Token Query
+```bash
+python scripts/web3.py token-query <chain> <contract_address>
+```
+
+### Wallet Balance
+```bash
+python scripts/web3.py wallet-balance <wallet_address>
+```
+
+### Market Data
+```bash
+python scripts/web3.py market-data <symbol> [options]
+```
+
+Options:
+- `--period`: Time period (1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max)
+- `--interval`: Data interval (1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo)
+
+### RSI Indicator
+```bash
+python scripts/web3.py rsi <symbol> [options]
+```
+
+Options:
+- `--period`: RSI calculation period (default: 14)
+- `--time-period`: Time period for data (default: 1y)
+- `--interval`: Data interval (default: 1d)
+
+### MACD Indicator
+```bash
+python scripts/web3.py macd <symbol> [options]
+```
+
+Options:
+- `--fast`: Fast EMA period (default: 12)
+- `--slow`: Slow EMA period (default: 26)
+- `--signal`: Signal line EMA period (default: 9)
+- `--time-period`: Time period for data (default: 1y)
+- `--interval`: Data interval (default: 1d)
+
+### CoinMarketCap
+```bash
+python scripts/web3.py coinmarketcap <command> [options]
+```
+
+Commands:
+- `listings`: Get cryptocurrency listings
+- `info`: Get specific cryptocurrency information
+- `global`: Get global market metrics (Pro plan required)
+- `fear-greed`: Get Fear and Greed Index
+- `cmc20`: Get CMC20 Index
+- `cmc100`: Get CMC100 Index
+
+Options:
+- `--limit`: Number of results (default: 100)
+- `--convert`: Currency for price conversion (default: USD)
+- `--sort`: Sort field (market_cap, price, volume, etc.)
+
+**Note:** The `global` command requires CoinMarketCap Pro plan or higher. Other features (listings, info, fear-greed, cmc20, cmc100) are available on the Basic plan.
+
+### Meme Token Scanner
 
 ```bash
-pip install python-dotenv requests okx
+# Scan for meme tokens
+python scripts/web3.py chain-scanner [options]
+
+# Get supported chains and protocols
+python scripts/web3.py supported-chains
+
+# Get token details
+python scripts/web3.py token-details <chain> <token_address> [wallet_address]
+
+# Get similar tokens
+python scripts/web3.py similar-tokens <chain> <token_address>
+
+# Get aped wallets
+python scripts/web3.py aped-wallets <chain> <token_address> [wallet_address]
+
+# Get token bundle info
+python scripts/web3.py token-bundle-info <chain> <token_address>
+
+# Get token developer info
+python scripts/web3.py token-dev-info <chain> <token_address>
+
+# Get signal-supported chains
+python scripts/web3.py signal-chains
+
+# Get signal list
+python scripts/web3.py signal-list <chain> [options]
 ```
 
-## 多语言支持
+**Options for chain-scanner:**
+- `--chain`: Blockchain (sol, bsc, xlayer, tron, eth) - default: sol
+- `--stage`: Token stage (NEW, MIGRATING, MIGRATED) - default: NEW
+- `--min-volume`: Minimum 24h volume
+- `--min-mcap`: Minimum market cap
+- `--min-holders`: Minimum holders
+- `--min-age`: Minimum token age (minutes)
+- `--social`: Only tokens with social links
+- `--limit`: Number of results - default: 10
 
-工具支持多种语言：
-- 英语 (en_us) - 默认
-- 中文 (zh_cn)
-- 日语 (jp)
-- 繁体中文 (zh_tw)
+**Options for signal-list:**
+- `--chain`: Blockchain (sol, bsc, xlayer, tron, eth) - default: sol
+- `--wallet-type`: Wallet type (1=Smart Money, 2=KOL/Influencer, 3=Whales)
+- `--min-amount`: Minimum amount
+- `--max-amount`: Maximum amount
+- `--min-address-count`: Minimum address count
+- `--max-address-count`: Maximum address count
+- `--min-market-cap`: Minimum market cap
+- `--max-market-cap`: Maximum market cap
+- `--min-liquidity`: Minimum liquidity
+- `--max-liquidity`: Maximum liquidity
 
-可以通过命令行参数或环境变量指定语言。
+## Examples
 
-## 错误处理
+### Stock Analysis
+```bash
+# Get Apple stock data
+python scripts/web3.py market-data AAPL
 
-工具实现了全面的错误处理：
-- 无效的链名称
-- 无效的钱包地址
-- API 请求失败
-- 网络超时
-- 缺少环境变量
+# Calculate RSI for Tesla
+python scripts/web3.py rsi TSLA
 
-错误响应包含描述性消息，帮助识别和解决问题。
-
-## 地址类型检测
-
-钱包余额工具自动检测地址类型：
-- **比特币**：以 `1`、`3` 或 `bc1` 开头的地址
-- **Solana**：Base58 编码的地址（32-44 个字符）
-- **EVM**：以 `0x` 开头且长度为 42 个字符的地址
-
-## 高级功能
-
-### 多链查询
-
-同时查询所有支持链的余额：
-```python
-from scripts.wallet_balance import wallet_balance
-
-result = wallet_balance(wallet_address, show_zero=False)
+# Calculate MACD for Microsoft
+python scripts/web3.py macd MSFT
 ```
 
-### ERC20 代币余额
+### Cryptocurrency Analysis
+```bash
+# Get Bitcoin data
+python scripts/web3.py market-data BTC-USD
 
-查询 EVM 链的 ERC20 代币余额：
-```python
-from scripts.wallet_balance import wallet_balance_with_tokens
+# Calculate RSI for Ethereum
+python scripts/web3.py rsi ETH-USD
 
-result = wallet_balance_with_tokens(
-    wallet_address,
-    chain='ethereum',
-    token_addresses=['0x...', '0x...']
-)
+# Get top 10 cryptocurrencies
+python scripts/web3.py coinmarketcap listings --limit 10
+
+# Get Bitcoin info
+python scripts/web3.py coinmarketcap info BTC
 ```
 
-### 自定义链选择
+### Combined Analysis
+```bash
+# Get market data and RSI
+python scripts/web3.py market-data AAPL --period 1mo
+python scripts/web3.py rsi AAPL --period 1mo
 
-指定要查询的链：
-```python
-from scripts.wallet_balance import wallet_balance
-
-result = wallet_balance(
-    wallet_address,
-    chains=['ethereum', 'bsc'],
-    show_zero=True
-)
+# Get market data and MACD
+python scripts/web3.py market-data BTC-USD --interval 1h
+python scripts/web3.py macd BTC-USD --interval 1h
 ```
 
-## 数据结构
+### Meme Token Analysis
+```bash
+# Scan for new meme tokens on Solana
+python scripts/web3.py chain-scanner --chain sol --stage NEW --limit 10
 
-### 代币查询响应
+# Scan for meme tokens with social links
+python scripts/web3.py chain-scanner --chain sol --social --limit 20
 
-```json
-{
-  "chain": "ethereum",
-  "token_address": "0xEa9Bb54fC76BfD5DD2FF2f6dA641E78C230bB683",
-  "price_usd": "123.45",
-  "name": "Token Name",
-  "symbol": "TKN",
-  "market_cap": "1000000000",
-  "volume_24h": "50000000",
-  "total_supply": "1000000000",
-  "max_supply": "1000000000",
-  "decimals": "18",
-  "logo_url": "https://...",
-  "official_website": "https://...",
-  "social_urls": {},
-  "timestamp": "1700000000000"
-}
+# Get detailed token information
+python scripts/web3.py token-details sol FGSpAGvkR1zRjjBpY2utb5JDyPnYSB7y3KDGpP53pump
+
+# Find similar tokens
+python scripts/web3.py similar-tokens sol FGSpAGvkR1zRjjBpY2utb5JDyPnYSB7y3KDGpP53pump
+
+# Track aped wallets
+python scripts/web3.py aped-wallets sol FGSpAGvkR1zRjjBpY2utb5JDyPnYSB7y3KDGpP53pump
+
+# Get bundle transaction data
+python scripts/web3.py token-bundle-info sol FGSpAGvkR1zRjjBpY2utb5JDyPnYSB7y3KDGpP53pump
+
+# Get developer information
+python scripts/web3.py token-dev-info sol FGSpAGvkR1zRjjBpY2utb5JDyPnYSB7y3KDGpP53pump
+
+# Track smart money signals
+python scripts/web3.py signal-list sol --wallet-type 1 --min-amount 1000
+
+# Get supported chains
+python scripts/web3.py supported-chains
 ```
 
-### 钱包余额响应
+## Dependencies
 
-```json
-{
-  "wallet_address": "0x53A0Fc074E31068CFdBD73B756458546274fEa97",
-  "balances": [
-    {
-      "chain": "ethereum",
-      "chain_id": "1",
-      "balance": "1.5",
-      "balance_raw": "1500000000000000000",
-      "decimals": "18",
-      "unit": "ETH",
-      "price_usd": "2000.00",
-      "value_usd": "3000.00"
-    }
-  ],
-  "total_value_usd": "3000.00",
-  "chain_count": 1,
-  "timestamp": "1700000000000"
-}
+Install required packages:
+```bash
+pip install python-dotenv requests okx pandas numpy
 ```
 
-## 性能考虑
+## Troubleshooting
 
-- 代币查询使用 OKX API 并有速率限制
-- 钱包余额查询使用并行请求进行优化
-- 尽可能缓存价格数据以减少 API 调用
-- 超时设置防止在无响应端点上挂起
+### Common Issues
 
-## 安全注意事项
+**API Key Errors:**
+- Verify API keys are set in `.env` file
+- Check API key format and validity
+- Ensure API key has required permissions
 
-- API 密钥仅从环境变量加载
-- 不记录或存储敏感数据
-- 所有 API 请求使用 HTTPS
-- 查询前验证钱包地址
+**Data Not Available:**
+- Some stocks/crypto may not be available on Yahoo Finance
+- Check symbol format (e.g., BTC-USD for Bitcoin)
+- Verify network connectivity
 
-## 限制
+**Rate Limiting:**
+- CoinMarketCap API has rate limits
+- Reduce frequency of requests
+- Consider caching results
 
-- 代币查询需要 OKX API 凭证
-- 某些链可能有速率限制
-- 价格数据可能有轻微延迟
-- 并非所有代币都有完整的元数据
-- 比特币查询依赖公共 API
+**Technical Indicator Errors:**
+- Ensure sufficient historical data is available
+- Check time period and interval settings
+- Verify symbol is valid
 
-## 故障排除
+## Support
 
-### 常见问题
+For detailed documentation and examples, see [SKILL.md](SKILL.md).
 
-**"不支持的链"错误：**
-- 验证链名称在支持的链列表中
-- 检查链名称拼写（区分大小写）
-
-**"无效的钱包地址"错误：**
-- 验证地址格式符合预期的区块链
-- 检查地址中的拼写错误
-
-**API 请求失败：**
-- 验证 API 密钥配置正确
-- 检查网络连接
-- 验证 API 端点可访问
-
-**缺少价格数据：**
-- 某些代币可能没有可用的价格数据
-- 检查 CoinGecko API 状态
-- 验证代币符号映射正确
-
-## 最佳实践
-
-1. **API 密钥管理**：保持 API 密钥安全并定期轮换
-2. **错误处理**：始终检查响应中的错误
-3. **速率限制**：遵守 API 速率限制以避免被阻止
-4. **数据验证**：查询前验证地址
-5. **缓存**：适当时缓存结果以减少 API 调用
-6. **监控**：监控 API 使用率和错误率
-
-## 相关技能
-
-- `qweather` - 旅行规划天气信息
-- `amap` - 路线规划和位置服务
-- `travel` - 旅行规划集成
-
-## 👨‍💻 作者
+## 👨‍💻 Author
 
 **Jask**
 
-- **个人网站**: https://jask.dev
+- **Website**: https://jask.dev
 - **GitHub**: https://github.com/respectevery01
 - **Twitter**: [@jaskdon](https://twitter.com/jaskdon)
 
-## 📄 许可证
+## 📄 License
 
-本项目基于MIT许可证开源 - 详见 [LICENSE](../../LICENSE) 文件。
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.

@@ -141,7 +141,7 @@ Query weather information including current conditions, forecasts, and air quali
 - Global city search
 - Multi-language support (Chinese, English, Japanese)
 
-**Documentation**: [diary/qweather/README.md](diary/qweather/README.md)
+**Documentation**: [diary/qweather/references/README.md](diary/qweather/references/README.md)
 
 #### Amap
 Query map information including geocoding, POI search, and route planning.
@@ -153,7 +153,7 @@ Query map information including geocoding, POI search, and route planning.
 - Weather queries
 - Multi-language support
 
-**Documentation**: [diary/amap/README.md](diary/amap/README.md)
+**Documentation**: [diary/amap/references/README.md](diary/amap/references/README.md)
 
 #### Travel
 Web interface for displaying modular travel plan JSON files.
@@ -165,7 +165,7 @@ Web interface for displaying modular travel plan JSON files.
 - Attraction recommendations
 - Daily itinerary view
 
-**Documentation**: [diary/travel/README.md](diary/travel/README.md)
+**Documentation**: [diary/travel/references/README.md](diary/travel/references/README.md)
 
 #### Mastodon
 Mastodon social media integration for posting statuses, retrieving timelines, and managing notifications.
@@ -178,7 +178,7 @@ Mastodon social media integration for posting statuses, retrieving timelines, an
 - Verify credentials
 - Multi-language support
 
-**Documentation**: [diary/mastodon/README.md](diary/mastodon/README.md)
+**Documentation**: [diary/mastodon/SKILL.md](diary/mastodon/SKILL.md)
 
 #### Telegram
 Telegram Bot integration for sending messages, managing channels, and notifications.
@@ -209,7 +209,7 @@ Bluesky social media integration for posting text, images, reading timelines, an
 - Multi-language support for posts
 - Automatic image processing and optimization
 
-**Documentation**: [diary/bluesky/README.md](diary/bluesky/README.md)
+**Documentation**: [diary/bluesky/references/README.md](diary/bluesky/references/README.md)
 
 #### AI Aggregator
 Intelligent API routing for cost optimization and performance.
@@ -221,7 +221,7 @@ Intelligent API routing for cost optimization and performance.
 - Task analysis and recommendation
 - Support for 7 AI services (DeepSeek, OpenAI, Gemini, Minimax, GLM, Qwen, Claude)
 
-**Documentation**: [diary/ai_aggregator/README.md](diary/ai_aggregator/README.md)
+**Documentation**: [diary/ai_aggregator/SKILL.md](diary/ai_aggregator/SKILL.md)
 
 #### RSS Feed Reader
 RSS feed reader for fetching, searching, and managing RSS feeds from various sources.
@@ -241,6 +241,8 @@ RSS feed reader for fetching, searching, and managing RSS feeds from various sou
 
 Comprehensive tools for blockchain interactions, financial market analysis, technical indicators, and complete OKX Web3 API support for meme token scanning.
 
+**Documentation**: [web3/references/README.md](web3/references/README.md)
+
 #### Market Data
 Fetch comprehensive market data for stocks and cryptocurrencies.
 
@@ -253,7 +255,6 @@ Fetch comprehensive market data for stocks and cryptocurrencies.
 - 52-week high/low
 - Historical data export
 
-**Documentation**: [web3/README.md](web3/README.md)
 
 #### RSI Technical Indicator
 Calculate Relative Strength Index for technical analysis.
@@ -265,7 +266,6 @@ Calculate Relative Strength Index for technical analysis.
 - Trading recommendations
 - Risk assessment
 
-**Documentation**: [web3/README.md](web3/README.md)
 
 #### MACD Technical Indicator
 Calculate Moving Average Convergence Divergence for trend analysis.
@@ -277,7 +277,6 @@ Calculate Moving Average Convergence Divergence for trend analysis.
 - Golden cross/death cross detection
 - Trend strength analysis
 
-**Documentation**: [web3/README.md](web3/README.md)
 
 #### CoinMarketCap API
 Access professional cryptocurrency market data.
@@ -289,7 +288,6 @@ Access professional cryptocurrency market data.
 - Real-time price data
 - Market dominance tracking
 
-**Documentation**: [web3/README.md](web3/README.md)
 
 #### Token Query
 Query token information including price, market cap, and volume.
@@ -300,8 +298,6 @@ Query token information including price, market cap, and volume.
 - Support for multiple chains (Ethereum, BSC, Solana)
 - Multi-language support
 
-**Documentation**: [web3/README.md](web3/README.md)
-
 #### Wallet Balance
 Query wallet balances across multiple blockchain networks.
 
@@ -311,7 +307,6 @@ Query wallet balances across multiple blockchain networks.
 - Zero-balance filtering
 - Multi-language support
 
-**Documentation**: [web3/README.md](web3/README.md)
 
 #### Meme Token Scanner (OKX Web3 API)
 Complete OKX Web3 API support for meme token scanning and analysis.
@@ -330,7 +325,6 @@ Complete OKX Web3 API support for meme token scanning and analysis.
 - Smart money signal tracking
 - Developer reputation analysis
 
-**Documentation**: [web3/README.md](web3/README.md)
 
 ## Project Structure
 
@@ -512,12 +506,14 @@ export LANG=en_us
 
 ### User Documentation
 - **[diary/README.md](diary/README.md)** - Diary skills user guide
-- **[diary/qweather/README.md](diary/qweather/README.md)** - QWeather user guide
-- **[diary/amap/README.md](diary/amap/README.md)** - Amap user guide
-- **[diary/travel/README.md](diary/travel/README.md)** - Travel user guide
-- **[diary/mastodon/README.md](diary/mastodon/README.md)** - Mastodon user guide
-- **[diary/bluesky/README.md](diary/bluesky/README.md)** - Bluesky user guide
-- **[web3/README.md](web3/README.md)** - Web3 user guide
+- **[diary/qweather/references/README.md](diary/qweather/references/README.md)** - QWeather user guide
+- **[diary/amap/references/README.md](diary/amap/references/README.md)** - Amap user guide
+- **[diary/travel/references/README.md](diary/travel/references/README.md)** - Travel user guide
+- **[diary/mastodon/SKILL.md](diary/mastodon/SKILL.md)** - Mastodon user guide
+- **[diary/bluesky/references/README.md](diary/bluesky/references/README.md)** - Bluesky user guide
+- **[diary/telegram/references/README.md](diary/telegram/references/README.md)** - Telegram user guide
+- **[diary/rss/references/README.md](diary/rss/references/README.md)** - RSS user guide
+- **[web3/README.md](web3/references/README.md)** - Web3 user guide
 
 ## API Keys
 
