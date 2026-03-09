@@ -279,3 +279,9 @@ python rss_cli.py --help
 python rss_cli.py fetch --help
 python rss_cli.py search --help
 ```
+
+## License / 许可证
+
+This project is licensed under the GNU General Public License v3 - see the [LICENSE](../../../../LICENSE) file for details.
+
+本项目基于GNU General Public License v3许可证开源 - 详见 [LICENSE](../../../../LICENSE) 文件。

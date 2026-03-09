@@ -296,7 +296,3 @@ Made with ❤️ by the development team
 - **个人网站**: https://jask.dev
 - **GitHub**: https://github.com/respectevery01
 - **Twitter**: [@jaskdon](https://twitter.com/jaskdon)
-
-## 📄 许可证
-
-本项目仅供教育和个人使用。

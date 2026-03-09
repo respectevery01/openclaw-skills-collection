@@ -136,4 +136,4 @@ PM10: 35 μg/m³
 
 ## 📄 许可证
 
-本项目基于MIT许可证开源 - 详见 [LICENSE](../../../../LICENSE) 文件。
+本项目基于GNU General Public License v3许可证开源 - 详见 [LICENSE](../../../../LICENSE) 文件。
