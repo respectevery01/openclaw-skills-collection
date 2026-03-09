@@ -62,6 +62,9 @@ desktop.ini
 *.temp
 .cache/
 
+# Travel tool - generated travel plans
+diary/travel/assets/travel-*.json
+
 # Session files
 .bsky_sessions/
 *.session

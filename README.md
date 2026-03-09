@@ -2,11 +2,89 @@
 
 A comprehensive collection of AI-powered tools for daily life assistance, including weather queries, map services, travel planning, social media integration, and Web3 interactions.
 
-## 📋 Overview
+## Overview
 
 OpenClaw Skills Collection provides modular, AI-friendly tools designed to work together or independently. Each skill follows a standardized structure for easy integration and maintenance.
 
-## 🛠️ Installation
+## How to Use
+
+### Using Diary Skills
+
+All diary tools can be accessed through a unified `diary.py` launcher:
+
+```bash
+python diary.py <tool> [args...]
+```
+
+**Available Tools**:
+- `weather` - Query weather information
+- `amap` - Query map and route information
+- `travel` - Travel planning tool
+- `mastodon` - Mastodon social media integration
+- `bluesky` - Bluesky social media integration
+- `telegram` - Telegram bot integration
+- `rss` - RSS feed reader
+
+**Examples**:
+```bash
+# Weather query
+python diary.py weather 北京
+
+# Map query
+python diary.py amap route 北京 上海
+
+# Travel planning
+python diary.py travel
+
+# Social media
+python diary.py mastodon post-status "Hello!"
+python diary.py bluesky post "Hello!"
+
+# Telegram bot
+python diary.py telegram send 123456789 "Hello!"
+
+# RSS feed
+python diary.py rss fetch http://feeds.bbci.co.uk/news/rss.xml
+```
+
+### Using Web3 Skills
+
+Web3 skills are accessed through a `web3.py` launcher:
+
+```bash
+python web3.py <command> [args...]
+```
+
+**Available Commands**:
+- `token-query` - Query token information
+- `wallet-balance` - Query wallet balance
+- `market-data` - Get market data
+- `rsi` - Calculate RSI indicator
+- `macd` - Calculate MACD indicator
+- `chain-scanner` - Scan tokens on chains
+- And more...
+
+**Examples**:
+```bash
+# Query token
+python web3.py token-query ethereum 0x...
+
+# Check wallet balance
+python web3.py wallet-balance 0x...
+
+# Get market data
+python web3.py market-data BTC
+```
+
+### AI Integration
+
+For detailed usage instructions and AI integration, refer to the main SKILL.md file:
+
+**📄 SKILL.md**: [https://raw.githubusercontent.com/respectevery01/openclaw-skills-collection/refs/heads/main/SKILL.md](https://raw.githubusercontent.com/respectevery01/openclaw-skills-collection/refs/heads/main/SKILL.md)
+
+This file contains comprehensive instructions for AI agents on how to use all skills effectively.
+
+## �🛠️ Installation
 
 ### Prerequisites
 
@@ -47,13 +125,13 @@ pip install dashscope>=1.14.0  # Qwen API
 pip install zhipuai>=2.0.0  # GLM API
 ```
 
-## 🚀 Available Skills
+## Available Skills
 
 ### Diary Skills (`diary/`)
 
 A collection of tools for daily life assistance.
 
-#### 🌤️ QWeather
+#### QWeather
 Query weather information including current conditions, forecasts, and air quality.
 
 **Features**:
@@ -65,7 +143,7 @@ Query weather information including current conditions, forecasts, and air quali
 
 **Documentation**: [diary/qweather/README.md](diary/qweather/README.md)
 
-#### 🗺️ Amap
+#### Amap
 Query map information including geocoding, POI search, and route planning.
 
 **Features**:
@@ -77,7 +155,7 @@ Query map information including geocoding, POI search, and route planning.
 
 **Documentation**: [diary/amap/README.md](diary/amap/README.md)
 
-#### ✈️ Travel
+#### Travel
 Web interface for displaying modular travel plan JSON files.
 
 **Features**:
@@ -89,7 +167,7 @@ Web interface for displaying modular travel plan JSON files.
 
 **Documentation**: [diary/travel/README.md](diary/travel/README.md)
 
-#### 🐘 Mastodon
+#### Mastodon
 Mastodon social media integration for posting statuses, retrieving timelines, and managing notifications.
 
 **Features**:
@@ -102,7 +180,7 @@ Mastodon social media integration for posting statuses, retrieving timelines, an
 
 **Documentation**: [diary/mastodon/README.md](diary/mastodon/README.md)
 
-#### 📱 Telegram
+#### Telegram
 Telegram Bot integration for sending messages, managing channels, and notifications.
 
 **Features**:
@@ -119,7 +197,7 @@ Telegram Bot integration for sending messages, managing channels, and notificati
 
 **Documentation**: [diary/telegram/references/README.md](diary/telegram/references/README.md)
 
-#### 🔵 Bluesky
+#### Bluesky
 Bluesky social media integration for posting text, images, reading timelines, and searching content.
 
 **Features**:
@@ -133,7 +211,7 @@ Bluesky social media integration for posting text, images, reading timelines, an
 
 **Documentation**: [diary/bluesky/README.md](diary/bluesky/README.md)
 
-#### 🤖 AI Aggregator
+#### AI Aggregator
 Intelligent API routing for cost optimization and performance.
 
 **Features**:
@@ -145,7 +223,7 @@ Intelligent API routing for cost optimization and performance.
 
 **Documentation**: [diary/ai_aggregator/README.md](diary/ai_aggregator/README.md)
 
-#### 📰 RSS Feed Reader
+#### RSS Feed Reader
 RSS feed reader for fetching, searching, and managing RSS feeds from various sources.
 
 **Features**:
@@ -163,7 +241,7 @@ RSS feed reader for fetching, searching, and managing RSS feeds from various sou
 
 Comprehensive tools for blockchain interactions, financial market analysis, technical indicators, and complete OKX Web3 API support for meme token scanning.
 
-#### 💰 Market Data
+#### Market Data
 Fetch comprehensive market data for stocks and cryptocurrencies.
 
 **Features**:
@@ -177,7 +255,7 @@ Fetch comprehensive market data for stocks and cryptocurrencies.
 
 **Documentation**: [web3/README.md](web3/README.md)
 
-#### 📈 RSI Technical Indicator
+#### RSI Technical Indicator
 Calculate Relative Strength Index for technical analysis.
 
 **Features**:
@@ -189,7 +267,7 @@ Calculate Relative Strength Index for technical analysis.
 
 **Documentation**: [web3/README.md](web3/README.md)
 
-#### 📉 MACD Technical Indicator
+#### MACD Technical Indicator
 Calculate Moving Average Convergence Divergence for trend analysis.
 
 **Features**:
@@ -201,7 +279,7 @@ Calculate Moving Average Convergence Divergence for trend analysis.
 
 **Documentation**: [web3/README.md](web3/README.md)
 
-#### 💎 CoinMarketCap API
+#### CoinMarketCap API
 Access professional cryptocurrency market data.
 
 **Features**:
@@ -213,7 +291,7 @@ Access professional cryptocurrency market data.
 
 **Documentation**: [web3/README.md](web3/README.md)
 
-#### 💰 Token Query
+#### Token Query
 Query token information including price, market cap, and volume.
 
 **Features**:
@@ -224,7 +302,7 @@ Query token information including price, market cap, and volume.
 
 **Documentation**: [web3/README.md](web3/README.md)
 
-#### 💳 Wallet Balance
+#### Wallet Balance
 Query wallet balances across multiple blockchain networks.
 
 **Features**:
@@ -235,7 +313,7 @@ Query wallet balances across multiple blockchain networks.
 
 **Documentation**: [web3/README.md](web3/README.md)
 
-#### 🎯 Meme Token Scanner (OKX Web3 API)
+#### Meme Token Scanner (OKX Web3 API)
 Complete OKX Web3 API support for meme token scanning and analysis.
 
 **Features**:
@@ -254,7 +332,7 @@ Complete OKX Web3 API support for meme token scanning and analysis.
 
 **Documentation**: [web3/README.md](web3/README.md)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 openclaw/
@@ -279,7 +357,7 @@ openclaw/
     └── references/      # Documentation
 ```
 
-## 🔧 Installation
+## Installation
 
 ### Prerequisites
 
@@ -305,7 +383,7 @@ openclaw/
    AMAP_API_KEY=your_amap_api_key
    ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Weather Queries
 ```bash
@@ -408,7 +486,7 @@ python web3.py token-dev-info sol FGSpAGvkR1zRjjBpY2utb5JDyPnYSB7y3KDGpP53pump
 python web3.py signal-list sol --wallet-type 1 --min-amount 1000
 ```
 
-## 🌍 Multi-language Support
+## Multi-language Support
 
 All skills support multiple languages:
 - `zh_cn` - Simplified Chinese (default)
@@ -421,7 +499,7 @@ Set language via environment variable:
 export LANG=en_us
 ```
 
-## 📚 Documentation
+## Documentation
 
 ### AI Agent Documentation
 - **[SKILL.md](SKILL.md)** - Main AI skill documentation
@@ -441,7 +519,7 @@ export LANG=en_us
 - **[diary/bluesky/README.md](diary/bluesky/README.md)** - Bluesky user guide
 - **[web3/README.md](web3/README.md)** - Web3 user guide
 
-## 🔑 API Keys
+## API Keys
 
 ### Required API Keys
 
@@ -504,7 +582,7 @@ When an AI agent receives a travel planning request:
 4. Create modular JSON files
 5. Provide URL to user
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -524,11 +602,7 @@ When an AI agent receives a travel planning request:
 - Verify Python version compatibility
 - Check if all required packages are installed
 
-## 📝 License
-
-This project is provided as-is for educational and personal use.
-
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please ensure:
 - Code follows existing style conventions
@@ -536,7 +610,7 @@ Contributions are welcome! Please ensure:
 - Documentation is updated
 - Skills follow the standardized structure
 
-## 📧 Support
+## Support
 
 For issues or questions:
 1. Check skill-specific help commands
@@ -544,7 +618,7 @@ For issues or questions:
 3. Check API documentation for respective services
 4. Refer to user documentation in each skill directory
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Daily Life
 - Check weather before going out
@@ -564,7 +638,7 @@ For issues or questions:
 - Multi-chain support
 - Real-time market data
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - More weather data sources
 - Additional map providers
@@ -572,7 +646,7 @@ For issues or questions:
 - More blockchain networks
 - Improved AI integration
 
-## 📊 Statistics
+## Statistics
 
 - **Total Skills**: 9
 - **Supported Languages**: 4
@@ -586,7 +660,7 @@ For issues or questions:
 
 **OpenClaw Skills Collection** - Empowering AI with practical, modular tools for everyday use.
 
-## 👨‍💻 Author
+## Author
 
 **Jask**
 
@@ -594,11 +668,11 @@ For issues or questions:
 - **GitHub**: https://github.com/respectevery01
 - **Twitter**: [@jaskdon](https://twitter.com/jaskdon)
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ☕ Support Me
+## Support Me
 
 If you find this project helpful, consider supporting me:
 
