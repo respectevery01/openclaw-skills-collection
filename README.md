@@ -211,6 +211,16 @@ Bluesky social media integration for posting text, images, reading timelines, an
 
 **Documentation**: [diary/bluesky/references/README.md](diary/bluesky/references/README.md)
 
+#### TweetClaw (related OpenClaw plugin)
+TweetClaw is an external OpenClaw plugin for X/Twitter automation. Use it when agents need to search tweets, search tweet replies, post tweets and replies, export followers, look up users, manage media, monitor tweets with webhooks, send direct messages, or run giveaway draws through Xquik.
+
+**Install**:
+```bash
+openclaw plugins install @xquik/tweetclaw
+```
+
+**Documentation**: [Xquik-dev/tweetclaw](https://github.com/Xquik-dev/tweetclaw)
+
 #### AI Aggregator
 Intelligent API routing for cost optimization and performance.
 
