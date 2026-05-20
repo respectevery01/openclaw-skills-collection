@@ -207,6 +207,19 @@ python diary.py bluesky [options]
 - Share travel plans from travel
 - Combine with other tools for social media sharing
 
+#### TweetClaw (external OpenClaw plugin)
+TweetClaw adds X/Twitter automation outside this repository. Use it when users ask an OpenClaw agent to scrape tweets, search tweets or replies, post tweets or replies, export followers, look up users, upload or download media, monitor tweets with webhooks, send direct messages, or run giveaway draws.
+
+**Usage**:
+```bash
+openclaw plugins install @xquik/tweetclaw
+```
+
+**Integration**:
+- Pair with Mastodon or Bluesky when a workflow needs cross-platform publishing.
+- Keep Xquik credentials in TweetClaw/OpenClaw config, not in prompts or docs.
+- Reference: https://github.com/Xquik-dev/tweetclaw
+
 #### Telegram (`diary/telegram/`)
 Telegram Bot integration for sending messages, managing channels, text-to-speech, speech-to-text, and file management.
 
